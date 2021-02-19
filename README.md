@@ -13,11 +13,18 @@ The client will send data in multiple sets of files in batches at a given locati
 # Dataset
 For dataset processing done via *AWS* bucket technique. Where we upload the files in separate folder in AWS.From our application establish AWS connection and process the each file individually. Afer the successful preprocessing moving the files to separate folder. 
 
+![Mongo DB](Capture.PNG)
+
 
 # Database
 Using MongoDB Atlas cloud storage for saving the logs used in training and prediction. Also, inserting the good data after preprocessing on training phase. On Prediction level inserting the wafer prediction with '-1'/'+1'.
 
+![Mongo DB](mongodb.PNG)
+
 # Dashboard
 Finally, a dashboard composed of prediction data with visaulization part. In addition to chart rendering dynamically by change of input field.
+
+![Mongo DB](Dashboard.PNG)
+
 
 
